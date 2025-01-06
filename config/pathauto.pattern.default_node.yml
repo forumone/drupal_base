@@ -3,7 +3,7 @@ status: true
 dependencies:
   module:
     - node
-id: menu_path
+id: default_node
 label: 'Default Node Path'
 type: 'canonical_entities:node'
 pattern: '[node:menu-link:parents:join-path]/[node:title]'
