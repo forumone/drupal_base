@@ -37,7 +37,6 @@ install:
 config:
   import:
     dblog: '*'
-    redirect: '*'
     node: '*'
     media: '*'
     media_library: '*'
