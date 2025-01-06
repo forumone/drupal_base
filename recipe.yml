@@ -29,7 +29,10 @@ install:
   - admin_toolbar_tools
   - anchor_link
   - environment_indicator
+  - linkit
   - pathauto
+  - paragraphs
+  - token
 
 config:
   import:

@@ -20,8 +20,10 @@
         "drupal/environment_indicator": "^4.0",
         "drupal/field_group": "^3.6",
         "drupal/focal_point": "^2.1",
+        "drupal/linkit": "^7.0",
         "drupal/metatag": "^2.1",
         "drupal/pathauto": "^1.13",
+        "drupal/paragraphs": "^1.18",
         "drupal/token": "^1.15",
         "npm-asset/northernco--ckeditor5-anchor-drupal": "^0.5"
     }
