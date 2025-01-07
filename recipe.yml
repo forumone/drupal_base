@@ -37,6 +37,7 @@ install:
 config:
   import:
     dblog: '*'
+    linkit: '*'
     node: '*'
     media: '*'
     media_library: '*'
