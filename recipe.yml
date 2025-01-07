@@ -2,6 +2,35 @@ name: 'Forum One - Base'
 description: 'Provides baseline Drupal installation typical of all Forum One build projects'
 type: 'Site'
 
+# Prompt for basic site info.
+input:
+  site_name:
+    data_type: string
+    description: The site name to be used.
+    constraints:
+      NotBlank: []
+    prompt:
+      # ask, askHidden, choice, and confirm.
+      method: ask
+      arguments:
+        question: 'What is the site name?'
+    default:
+      source: 'value'
+      value: 'Default Site'
+
+  site_email:
+    data_type: email
+    description: The site's email address.
+    constraints:
+      NotBlank: []
+    prompt:
+      method: ask
+      arguments:
+        question: 'What is the site email?'
+    default:
+      source: 'value'
+      value: 'info@example.com'
+
 install:
   # Core
   - block
@@ -35,6 +64,7 @@ install:
   - token
 
 config:
+  strict: false
   import:
     dblog: '*'
     linkit: '*'
@@ -57,3 +87,7 @@ config:
     system.theme:
       simple_config_update:
         admin: 'claro'
+    system.site:
+      simpleConfigUpdate:
+        name: ${site_name}
+        mail: ${site_email}
