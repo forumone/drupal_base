@@ -26,7 +26,7 @@ input:
     prompt:
       method: ask
       arguments:
-        question: 'What is the site email?'
+        question: 'Email address to use for Drupal system mailings?'
     default:
       source: 'value'
       value: 'info@example.com'
@@ -73,19 +73,19 @@ config:
     media_library: '*'
   actions:
     block.block.claro_admin:
-      simple_config_update:
+      simpleConfigUpdate:
         status: false
     block.block.claro_branding:
-      simple_config_update:
+      simpleConfigUpdate:
         status: false
     block.block.claro_tools:
-      simple_config_update:
+      simpleConfigUpdate:
         status: false
     node.settings:
-      simple_config_update:
+      simpleConfigUpdate:
         use_admin_theme: true
     system.theme:
-      simple_config_update:
+      simpleConfigUpdate:
         admin: 'claro'
     system.site:
       simpleConfigUpdate:
