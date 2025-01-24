@@ -4,12 +4,18 @@
 This "base" Drupal recipe provides installation of the minimum core modules as well as a handful of contrib modules needed to start a new Drupal site.
 Additionally, this recipe sets a few basic configuration items to a common baseline.
 
-## Modules
+## Contrib Modules
 - admin_toolbar
 - admin_toolbar_tools
 - anchor_link
+- config_direct_save
+- config_ignore
+- config_split
 - environment_indicator
+- field_group
+- focal_point
 - linkit
+- metatag
 - pathauto
 - paragraphs
 - token

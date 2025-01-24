@@ -57,8 +57,14 @@ install:
   - admin_toolbar
   - admin_toolbar_tools
   - anchor_link
+  - config_direct_save
+  - config_ignore
+  - config_split
   - environment_indicator
+  - field_group
+  - focal_point
   - linkit
+  - metatag
   - pathauto
   - paragraphs
   - token
