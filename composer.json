@@ -1,5 +1,5 @@
 {
-    "name": "forumone/f1_base",
+    "name": "forumone/drupal_base",
     "description": "Provides baseline Drupal installation typical of all Forum One Drupal projects",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
