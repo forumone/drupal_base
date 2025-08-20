@@ -87,15 +87,6 @@ config:
     media: '*'
     media_library: '*'
   actions:
-    block.block.claro_admin:
-      simpleConfigUpdate:
-        status: false
-    block.block.claro_branding:
-      simpleConfigUpdate:
-        status: false
-    block.block.claro_tools:
-      simpleConfigUpdate:
-        status: false
     node.settings:
       simpleConfigUpdate:
         use_admin_theme: true
