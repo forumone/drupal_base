@@ -79,6 +79,8 @@ install:
   - focal_point
   - linkit
   - metatag
+  - metatag_open_graph
+  - metatag_twitter_cards
   - pathauto
   - paragraphs
   - token
@@ -88,6 +90,10 @@ config:
   import:
     dblog: '*'
     linkit: '*'
+    # Brings in metatag's stock 403/404/user/taxonomy_term defaults. The three
+    # files in this recipe's config directory take priority over the module's
+    # versions of the same names.
+    metatag: '*'
     node: '*'
     media: '*'
     media_library: '*'
