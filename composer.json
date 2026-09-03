@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "drupal/core": "^10.3",
+        "drupal/core": "^10.3 || ^11",
         "drupal/admin_toolbar": "^3.5",
         "drupal/anchor_link": "^3.0@beta",
         "drupal/config_direct_save": "^3.0",

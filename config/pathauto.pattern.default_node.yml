@@ -6,7 +6,7 @@ dependencies:
 id: default_node
 label: 'Default Node Path'
 type: 'canonical_entities:node'
-pattern: '[node:menu-link:parents:join-path]/[node:title]'
+pattern: '/[node:menu-link:parents:join-path]/[node:title]'
 selection_criteria: {  }
 selection_logic: and
 weight: 10
